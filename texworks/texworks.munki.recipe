@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of texworks and imports it into Munki.</string>
+	<string>Downloads the latest version of TeXworks and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.joncrain.munki.texworks</string>
+	<string>com.github.joncrain.munki.TeXworks</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -33,7 +33,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.joncrain.download.texworks</string>
+	<string>com.github.joncrain.download.TeXworks</string>
 	<key>Process</key>
 	<array>
 		<dict>
