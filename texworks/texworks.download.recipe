@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of texworks.</string>
+	<string>Downloads the latest version of TeXworks.</string>
 	<key>Identifier</key>
-	<string>com.github.joncrain.download.texworks</string>
+	<string>com.github.joncrain.download.TeXworks</string>
 	<key>Input</key>
 	<dict>
 		<key>GITHUB_REPO</key>
-		<string>TeXworks/texworks</string>
+		<string>TeXworks/TeXworks</string>
 		<key>NAME</key>
-		<string>texworks</string>
+		<string>TeXworks</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
