@@ -36,23 +36,6 @@
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.nstrauss.download.exacqVision</string>
-	<key>ParentRecipeTrustInfo</key>
-	<dict>
-		<key>non_core_processors</key>
-		<dict/>
-		<key>parent_recipes</key>
-		<dict>
-			<key>com.github.nstrauss.download.exacqVision</key>
-			<dict>
-				<key>git_hash</key>
-				<string>bc2dee514692c901647730028716d978731a11d8</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/exacqVision/exacqVision.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>c7637f4fc0462437fdbd5a9e01d9fca095b406d26a17039914943ebf00eedda7</string>
-			</dict>
-		</dict>
-	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
