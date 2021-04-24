@@ -1,0 +1,18 @@
+name: AutoPkg Checker
+
+on:
+  schedule:
+    - cron: '0 3 * * 1-5' # At 3am UTC on Monday, Tuesday, Wednesday, Thursday, and Friday.
+  workflow_dispatch: # manually triggered
+
+jobs:
+  AutoPkg:
+    runs-on: macos-latest
+    timeout-minutes: 10 # Keeps your builds from running too long
+    steps:
+    - name: Checkout recipe repo (this repo)
+      uses: actions/checkout@25a956c84d5dd820d28caab9f86b8d183aeeff3d # Pin SHA1 hash instead of version
+
+    - name: Run AutoPkg Check
+      id: autopkg
+      uses: joncrain/autopkg-action@main
