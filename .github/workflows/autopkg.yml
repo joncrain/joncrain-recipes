@@ -2,7 +2,7 @@ name: AutoPkg Checker
 
 on:
   schedule:
-    - cron: '0 3 * * 1-5' # At 3am UTC on Monday, Tuesday, Wednesday, Thursday, and Friday.
+    - cron: '0 3 * * 1' # At 3am UTC on Monday, Tuesday, Wednesday, Thursday, and Friday.
   workflow_dispatch: # manually triggered
 
 jobs:
